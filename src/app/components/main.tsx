@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const Main = () => {
   return (
@@ -7,7 +8,7 @@ export const Main = () => {
         {/* Image section with overlay and animation */}
         <div className="relative w-full md:w-1/2 group transition-all duration-300 hover:scale-[1.02]">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-            <img
+            <Image
               src="/home_image.png"
               alt="Home"
               width={600}

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Produkter() {
   const products = [
     {
@@ -46,6 +48,8 @@ export default function Produkter() {
             <img 
               src={product.image} 
               alt={product.title} 
+              width={300}
+              height={200}
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
