@@ -39,18 +39,18 @@ export const Header = () => {
           {/* <p className="font-semibold text-xl">Anleggsgartner 1</p> */}
         </div>
         <div className="flex items-center space-x-4">
-          <Button variant="link">
-            <Link href={"/"}>Hjem</Link>
-          </Button>
+          <Link href={"/"}>
+            <Button variant="link">Hjem</Button>
+          </Link>
           {/* <Button variant="link">
             <Link href={"/om"}>Om oss</Link>
           </Button> */}
-          <Button variant="link">
-            <Link href={"/produkter"}>Produkter</Link>
-          </Button>
-          <Button variant="link">
-            <Link href={"/kontakt"}>Kontakt</Link>
-          </Button>
+          <Link href={"/produkter"}>
+            <Button variant="link">Produkter</Button>
+          </Link>
+          <Link href={"/kontakt"}>
+            <Button variant="link">Kontakt</Button>
+          </Link>
           {/* <Button variant="link">
             <Link href={"/galleri"}>Galleri</Link>
           </Button> */}
