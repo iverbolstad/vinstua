@@ -53,6 +53,7 @@ export async function getKundeLogo() {
   return posts;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function createPost(post: any) {
   const result = client.create(post);
   return result;
