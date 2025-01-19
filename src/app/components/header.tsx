@@ -1,7 +1,5 @@
 "use client";
 
-import { getLogo } from "../lib/sanity";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "./ui/Button";
 import Link from "next/link";
