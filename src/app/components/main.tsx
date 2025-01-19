@@ -1,14 +1,14 @@
 export const Main = () => {
   return (
     <div className="flex-grow mt-10">
-      <div className="flex gap-8">
-        <div className="relative inline-block">
+      <div className="flex flex-col md:flex-row gap-8">
+        <div className="relative inline-block max-w-[700px] mx-auto">
           <img
             src="/home_image.png"
             alt="Home"
-            width={800}
-            height={800}
-            className="object-cover"
+            width={600}
+            height={600}
+            className="object-cover w-full"
           />
           {/* <div className="absolute bottom-4 right-4 bg-white p-4 shadow-md">
             <p className="text-left">
